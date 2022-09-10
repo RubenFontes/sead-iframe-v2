@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: calc(2vh + 2vw);
+}
+
+body{
+    text-align: center;
+    color: #335faa;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEEFF1;
+    border-radius: 6px;
+}
+
+h2{
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin: 10vh 0;
+}
+
+.btn-group{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn-group button {
+    border: none; /* Green border */
+    color: white; /* White text */
+    padding: 3vw 10vw; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    transition: 0.5s;
+}
+  
+.btn-group button:hover {
+    filter: brightness(0.9);
+    transform: scale(0.98);
+}
+
+.btn{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    font-weight: 600; 
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+
+.btn-1{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #5589E1;
+}
+
+.btn-2{
+    background-color: #E95F54;
+}
+
+.btn-3{
+    background-color: #5EA45B;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.rodapé{
+    position: absolute;
+    display: inline;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: calc(1vh + 1.5vw);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+svg, p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    padding: 2px;
+    font-size: 19px;
+}
+
+@media (max-width: 768px){
+
+    .btn-group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn-group button {
+        padding: 5vw 10vw; /* Some padding */
+    }
+    
+    .btn{
+        width: 90vw;
+        margin: 1%;
+        border-radius: 6px;
+    }
+}
