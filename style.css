@@ -105,7 +105,7 @@ svg, p{
     font-size: 19px;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 
     .btn-group{
         display: flex;
@@ -113,12 +113,11 @@ svg, p{
         justify-content: center;
     }
     .btn-group button {
-        padding: 5vw 10vw; /* Some padding */
-    }
-    
+        padding: 5vw 10vw; 
+    }  
     .btn{
         width: 90vw;
         margin: 1%;
         border-radius: 6px;
     }
-}
+}*/
