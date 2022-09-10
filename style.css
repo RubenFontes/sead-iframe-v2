@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: calc(2vh + 2vw);
+    font-size: calc(2.3vh + 1.9vw);
 }
 
 body{
@@ -88,7 +88,6 @@ a{
     text-align: center;
     text-decoration: none;
     color: inherit;
-    font-size: calc(1vh + 1.5vw);
 }
 
 a:hover{
