@@ -38,9 +38,11 @@ h2{
 }
 
 .btn-group button {
+    font-size: 1em;
+    width: 18vw;
     border: none; /* Green border */
     color: white; /* White text */
-    padding: 3vw 10vw; /* Some padding */
+    padding: 3vw 7vw; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     transition: 0.5s;
@@ -52,29 +54,32 @@ h2{
 }
 
 .btn{
-    width: 25vw;
     display: flex;
     justify-content: center;
     font-weight: 600; 
+    opacity: 0.9;
     box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
 }
 
 .btn-1{
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    background-color: #5589E1;
+    background-color: #3b82f6;
 }
 
 .btn-2{
-    background-color: #E95F54;
+    background-color: #ef4444;
 }
 
 .btn-3{
-    background-color: #5EA45B;
+    background-color: #22c55e;
+}
+
+.btn-4{
+    background-color: #64748b;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-
 .rodapé{
     position: absolute;
     display: inline;
@@ -88,7 +93,6 @@ a{
     text-align: center;
     text-decoration: none;
     color: inherit;
-    font-size: calc(3vh + 1.2vw);
 }
 
 a:hover{
