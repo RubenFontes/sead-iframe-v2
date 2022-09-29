@@ -38,11 +38,11 @@ h2{
 }
 
 .btn-group button {
-    font-size: 1em;
-    width: 18vw;
+    font-size: 0.85em;
+    width: 16vw;
     border: none; /* Green border */
     color: white; /* White text */
-    padding: 3vw 7vw; /* Some padding */
+    padding: 2.8vw 0; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     transition: 0.5s;
