@@ -24,7 +24,7 @@ body{
 h2{
     font-size: calc(4vh + 1.2vw);
     letter-spacing: .1rem;
-    font-weight: 600;
+    font-weight: 500;
     margin: 10vh 0;
 }
 
@@ -38,7 +38,7 @@ h2{
 }
 
 .button-group button {
-    font-size: 0.8em;
+    font-size: calc(1vw + 0.8vh);
     width: 17vw;
     border: none; /* Green border */
     color: white; /* White text */
@@ -81,11 +81,17 @@ h2{
 }
 
 .dropdown-menu{
-    font-size: 0.8em;
+    font-size: calc(1vw + 0.8vh);
+    background-color: #71717a;
+    width: 100%;
+}
+
+.dropdown-item{
+    color: white;
 }
 
 .dropdown-item:hover{
-    background-color: #f4f4f5;
+    background-color: #EEEFF1;
     text-decoration: none;
 }
 
@@ -135,3 +141,4 @@ svg, p{
         border-radius: 6px;
     }
 }*/
+
