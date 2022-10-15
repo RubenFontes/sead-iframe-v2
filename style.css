@@ -28,7 +28,7 @@ h2{
     margin: 10vh 0;
 }
 
-.btn-group{
+.button-group{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,89 +37,99 @@ h2{
     flex-wrap: nowrap;
 }
 
-.btn-group button {
-    font-size: 0.85em;
-    width: 16vw;
+.button-group button {
+    font-size: 0.8em;
+    width: 17vw;
     border: none; /* Green border */
     color: white; /* White text */
-    padding: 2.8vw 0; /* Some padding */
+    padding: 2.6vw 0; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
-    transition: 0.5s;
-}
-  
-.btn-group button:hover {
-    filter: brightness(0.9);
-    transform: scale(0.98);
-}
-
-.btn{
     display: flex;
     justify-content: center;
     font-weight: 600; 
     opacity: 0.9;
     box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+    transition: 0.5s;
+}
+
+.button-group button:hover {
+    filter: brightness(0.9);
+    transform: scale(0.98);
 }
 
 .btn-1{
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    background-color: #3b82f6;
+    background-color: #14b8a6;
 }
 
 .btn-2{
-    background-color: #ef4444;
+    background-color: #0ea5e9;
 }
 
 .btn-3{
-    background-color: #22c55e;
+    background-color: #f43f5e;
 }
 
 .btn-4{
-    background-color: #64748b;
+    background-color: #71717a;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+
+.dropdown-menu{
+    font-size: 0.8em;
+}
+
+.dropdown-item:hover{
+    background-color: #f4f4f5;
+    text-decoration: none;
+}
+
 .rodapé{
     position: absolute;
-    display: inline;
+    display: inline-flex;
     top: 90vh;
     left: 50%;
     transform: translate(-50%, -90%);
 }
 
 a{
-    display: flex;
     text-align: center;
     text-decoration: none;
     color: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 a:hover{
     text-decoration: underline;
+    color: inherit;
 }
 
 svg, p{
-    display: flex;
+    display: inline-flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    line-height: 0px;
-    padding: 2px;
+    padding: 0 1px;
     font-size: 14px;
 }
 
 /*@media (max-width: 768px){
 
-    .btn-group{
+    .button-group{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .btn-group button {
+    .button-group button {
         padding: 5vw 10vw; 
     }  
-    .btn{
+    .button{
         width: 90vw;
         margin: 1%;
         border-radius: 6px;
