@@ -77,9 +77,9 @@ h1{
 .rodapé{
   position: absolute;
   display: inline-flex;
-  top: 90%;
+  top: 85%;
   left: 50%;
-  transform: translate(-50%, 90%);
+  transform: translate(-50%, 85%);
   font-size: 0.9rem;
   font-weight: 400;
 }
