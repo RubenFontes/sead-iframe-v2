@@ -8,15 +8,15 @@ $(".carousel").owlCarousel({
     autoplayHoverPause: true,
     items: 3,
     responsive: {
-      100:{
+      0:{
         items:1,
         nav: false
       },
-      /*600:{
+      600:{
         items:2,
         nav: false
-      }*/
-      2000:{
+      },
+      1000:{
         items:3,
         nav: false
       }
