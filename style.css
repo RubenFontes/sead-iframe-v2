@@ -41,25 +41,25 @@ h1{
 }
 
 .card-1{
-  background-color: #14b8a6;
+  background-color: #49A79C;
 }
 .card-2{
-  background-color: #0ea5e9;
+  background-color: #3D6FB8;
 }
 .card-3{
-  background-color: #f43f5e;
+  background-color: #DF6E32;
 }
 .card-4{
-  background-color: #f59e0b;
+  background-color: #E8BC42;
 }
 .card-5{
-  background-color: #71717a;
+  background-color: #808080;
 }
 .card-6{
-  background-color: #06b6d4;
+  background-color: #81C4E7;
 }
 .card-7{
-  background-color: #f97316;
+  background-color: #a2c7bf;
 }
 .card:hover{
   transform: scale(0.98);
