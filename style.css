@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
-body{
+body {
   min-height: 100vh;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
-.wrapper{
+.wrapper {
   width: 100%;
 }
-h1{
+h1 {
   font-size: calc(2vh + 2vw);
   font-weight: 600;
   text-align: center;
-  color: #3867B7; 
+  color: #3867b7;
 }
-.carousel{
+.carousel {
   max-width: 1200px;
   margin: auto;
   padding: 0 30px;
 }
-.carousel .card{
+.carousel .card {
   /*border-top: 0.3em solid white;*/
   cursor: pointer;
   color: white;
@@ -36,49 +36,55 @@ h1{
   font-size: calc(14px + 1vw);
   font-weight: 600;
   border-radius: 14px;
-  box-shadow: 0px 6px 15px #DDE9FD;
+  box-shadow: 0px 6px 15px #dde9fd;
   transition: 0.5s;
 }
 
-.card-1{
-  background-color: #49A79C;
+.card-1 {
+  background-color: #49a79c;
 }
-.card-2{
-  background-color: #3D6FB8;
+.card-2 {
+  background-color: #3d6fb8;
 }
-.card-3{
-  background-color: #DF6E32;
+.card-3 {
+  background-color: #df6e32;
 }
-.card-4{
-  background-color: #E8BC42;
+.card-4 {
+  background-color: #e8bc42;
 }
-.card-5{
-  background-color: #0C97B0;
+.card-5 {
+  background-color: #0c97b0;
 }
-.card-6{
+.card-6 {
   background-color: #2486c5;
 }
-.card-7{
+.card-7 {
   background-color: #808080;
 }
-.card:hover{
+.card-8 {
+  background-color: #f4b831;
+}
+.card-9 {
+  background-color: #0071bb;
+}
+.card:hover {
   transform: scale(0.98);
   filter: brightness(0.95);
 }
-.owl-dots{
+.owl-dots {
   text-align: center;
 }
-.owl-dot{
+.owl-dot {
   height: 10px;
   width: 30px;
   margin: 0 5px 20px 5px;
   outline: none;
   border-radius: 14px;
-  border: 2px solid #3D6FB8 !important;
+  border: 2px solid #3d6fb8 !important;
   /*box-shadow: 0px 6px 15px #DDE9FD;*/
   transition: all 0.3s ease;
 }
 .owl-dot.active,
-.owl-dot:hover{
-  background: #3D6FB8 !important;
+.owl-dot:hover {
+  background: #3d6fb8 !important;
 }
