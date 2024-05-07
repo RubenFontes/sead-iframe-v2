@@ -67,6 +67,9 @@ h1 {
 .card-9 {
   background-color: #0071bb;
 }
+.card-10 {
+  background-color: #0035BA;
+}
 .card:hover {
   transform: scale(0.98);
   filter: brightness(0.95);
