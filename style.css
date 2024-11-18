@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,26 +7,31 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
+
 body {
   min-height: 100vh;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
+
 .wrapper {
   width: 100%;
 }
+
 h1 {
   font-size: calc(2vh + 2vw);
   font-weight: 600;
   text-align: center;
   color: #3867b7;
 }
+
 .carousel {
   max-width: 1200px;
   margin: auto;
   padding: 0 30px;
 }
+
 .carousel .card {
   /*border-top: 0.3em solid white;*/
   cursor: pointer;
@@ -43,40 +49,56 @@ h1 {
 .card-1 {
   background-color: #49a79c;
 }
+
 .card-2 {
   background-color: #3d6fb8;
 }
+
 .card-3 {
   background-color: #df6e32;
 }
+
 .card-4 {
   background-color: #e8bc42;
 }
+
 .card-5 {
   background-color: #0c97b0;
 }
+
 .card-6 {
   background-color: #2486c5;
 }
+
 .card-7 {
   background-color: #808080;
 }
+
 .card-8 {
   background-color: #f4b831;
 }
+
 .card-9 {
   background-color: #0071bb;
 }
+
 .card-10 {
   background-color: #0035BA;
 }
+
+.card-10 {
+  background-color: #3e632d;
+}
+
 .card:hover {
   transform: scale(0.98);
   filter: brightness(0.95);
 }
+
 .owl-dots {
   text-align: center;
 }
+
 .owl-dot {
   height: 10px;
   width: 30px;
@@ -87,6 +109,7 @@ h1 {
   /*box-shadow: 0px 6px 15px #DDE9FD;*/
   transition: all 0.3s ease;
 }
+
 .owl-dot.active,
 .owl-dot:hover {
   background: #3d6fb8 !important;
